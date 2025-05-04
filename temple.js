@@ -109,5 +109,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // const purpose = document.getElementById("purpose").value;
 
     // Redirect to your Razorpay payment page
-    window.location.href = "https://pages.razorpay.com/pl_QQZIxdr8SNzoff/view";
+    window.location.href = "xx";
 });
