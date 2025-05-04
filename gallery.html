@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Govindharaja Swamy Temple Gallery</title>
+  <style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+.gallery1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery1 img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery.img1:hover {
+  transform: scale(1.05);
+}
+
+/* ✅ Responsive CSS for mobile */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 15px;
+  }
+
+  .gallery img {
+    height: 220px; /* Smaller height for better mobile viewing */
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>📷 Govindharaja Swamy Temple Gallery</h1>
+  <div class="gallery1">
+    <img src="g1.jpg" alt="Temple Photo 1">
+  </div>
+  <br>
+
+  <div class="gallery">
+    <img src="images/photo1.jpg" alt="Temple Photo 1">
+    <img src="images/photo2.jpg" alt="Temple Photo 2">
+    <img src="images/photo3.jpg" alt="Temple Photo 3">
+    <img src="images/photo4.jpg" alt="Temple Photo 4">
+    <img src="images/photo5.jpg" alt="Temple Photo 5">
+    <img src="images/photo1.jpg" alt="Temple Photo 1">
+    <img src="images/photo2.jpg" alt="Temple Photo 2">
+    <img src="images/photo3.jpg" alt="Temple Photo 3">
+    <img src="images/photo4.jpg" alt="Temple Photo 4">
+    <img src="images/photo5.jpg" alt="Temple Photo 5">
+    <img src="images/photo1.jpg" alt="Temple Photo 1">
+    <img src="images/photo2.jpg" alt="Temple Photo 2">
+    <img src="images/photo3.jpg" alt="Temple Photo 3">
+    <img src="images/photo4.jpg" alt="Temple Photo 4">
+    <img src="images/photo5.jpg" alt="Temple Photo 5">
+  </div>
+
+</body>
+</html>
